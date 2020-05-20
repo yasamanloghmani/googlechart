@@ -12,7 +12,7 @@ google.charts.load('current', {'packages':['timeline']});
       ]);
 
       var options = {
-          height:100,
+          height:150,
         timeline: {
           groupByRowLabel: true
         }
@@ -22,6 +22,3 @@ google.charts.load('current', {'packages':['timeline']});
 
       chart.draw(data, options);
     }
-
-
-    

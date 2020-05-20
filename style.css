@@ -2,8 +2,28 @@ body {
     text-align: center;
     padding: 30px;
     margin: 20px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 #chart_div{
    height: 100%;
+}
+
+#regions_div{
+    margin: 0px auto;
+}
+
+h4{
+    padding: 10px;
+    margin:5px;
+}
+
+img{
+    width: 230px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+h1{
+    color: #DD2C00;
 }
