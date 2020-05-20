@@ -51,7 +51,9 @@ span{
 th , td {
     background-color: #162447!important;
 }
-
+#chart_div td {
+    background-color: #1f4068!important ;
+}
 
 @keyframes animated-text{
     from{width: 0;}
