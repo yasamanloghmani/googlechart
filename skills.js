@@ -16,6 +16,8 @@ google.charts.load('current', {'packages':['corechart']});
 
       var options = {
         title: 'FRONT-END SKILLS',
+        backgroundColor: '#1f4068',
+        fontName : 'Balsamiq Sans'
         
       };
 

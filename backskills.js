@@ -16,7 +16,8 @@ google.charts.load('current', {'packages':['corechart']});
 
       var options = {
         title: 'BACK-END SKILLS',
-        
+        backgroundColor: '#1f4068',
+        fontName : 'Balsamiq Sans',
       };
 
       var chart = new google.visualization.PieChart(document.getElementById('backskills'));

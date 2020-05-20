@@ -12,10 +12,17 @@ google.charts.load('current', {'packages':['timeline']});
       ]);
 
       var options = {
-          height:150,
+        height:150,
+        animation: {"startup": true},
         timeline: {
-          groupByRowLabel: true
-        }
+          groupByRowLabel: true,
+          rowLabelStyle : {color:'whitesmoke', fontName: 'Balsamiq Sans', fontSize:'15px'},
+          barLabelStyle :{color:'whitesmoke', fontName: 'Balsamiq Sans', fontSize:'15px'}
+        },
+        backgroundColor: '#1f4068',
+
+        
+        
       };
 
       var chart = new google.visualization.Timeline(document.getElementById('age-chart'));

@@ -3,9 +3,12 @@ body {
     padding: 30px;
     margin: 20px;
     font-family: 'Balsamiq Sans', cursive;
-    background-color: #162447;
+    background-color: #1f4068;
+    color: whitesmoke;
 }
-
+text {
+    color: whitesmoke;
+}
 #chart_div{
    height: 100%;
 }
@@ -20,11 +23,48 @@ h4{
 }
 
 img{
-    width: 230px;
-    height: 220px;
-    border-radius: 50%;
+    width: 400px;
+    height: 300px;
 }
 
 h1{
-    color: #DD2C00;
+    margin: 10px auto;
+    color: #e43f5a;
+    border-right: solid 3px #EB1700;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+.fas{
+    font-size: 30px;
+    color: #e43f5a;
+}
+
+span{
+    color: #e43f5a;
+    font-style: italic;
+    font-weight: 100;
+}
+
+th , td {
+    background-color: #162447!important;
+}
+
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 460px;}
+  }
+  
+  @keyframes animated-cursor{
+    from{border-right-color: #EB1700;}
+    to{border-right-color: transparent;}
+  }
+  
+
+@keyframes example {
+    from {width: 0px}
+    to {width: 100%;}
 }

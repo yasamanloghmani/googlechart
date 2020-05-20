@@ -15,10 +15,10 @@ google.charts.load('current', {
 
     var options = {
         // region: '002', // Africa
-        // colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
-        // backgroundColor: '#81d4fa',
+        colorAxis: {colors: ['#e43f5a', 'black', '#e43f5a']},
+        backgroundColor: '#1f4068',
         // datalessRegionColor: '#f8bbd0',
-        // defaultColor: '#f5f5f5',
+        defaultColor: '#e43f5a',
       };
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
 
