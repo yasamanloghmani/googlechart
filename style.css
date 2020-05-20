@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+#chart_div{
+   height: 100%;
+}
